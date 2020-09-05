@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_bg"
+    tools:context=".SplashScreen">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        app:srcCompat="@drawable/group_48"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="112dp" />
+
+    <TextView
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonn_bg"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center"
+        android:text="Learn More"
+        android:textColor="#111A46"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="643dp" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_arrow_black"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="295dp"
+        tools:layout_editor_absoluteY="653dp" />
+
+</android.support.constraint.ConstraintLayout>
